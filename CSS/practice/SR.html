@@ -6,17 +6,10 @@
         body{
             background-color: ghostwhite;
         }
-        #a0{
-            margin-left: 20px;
-        }
-        label{
-            margin-left: 20px;
-        }
-        input{
-            margin-left: 20px;
-        }
-        #a1{
-            margin-left: 20px;
+        a0,a1{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly ;
         }
     </style>
 </head>
@@ -24,10 +17,12 @@
     <div id="a0">
         <form action="">
             <label for="text">User Name</label>
+            <input type="text" placeholder="enter name" required>
         </form> 
     </div>
     <div id="a1">
         <form action="">
+            <label for="text">User information</label>
             <input type="text" placeholder="enter name" required>
         </form>
     </div>
