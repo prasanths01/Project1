@@ -21956,7 +21956,7 @@
       "solid"
     ]
   },
-  "divide": {
+  "tdide": {
     "aliases": {
       "unicodes": {
         "composite": [
@@ -21981,7 +21981,7 @@
       "solid"
     ],
     "unicode": "f529",
-    "label": "Divide",
+    "label": "tdide",
     "voted": false,
     "svg": {
       "solid": {

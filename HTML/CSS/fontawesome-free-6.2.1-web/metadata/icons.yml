@@ -8304,7 +8304,7 @@ display:
     - solid
   unicode: e163
   voted: false
-divide:
+tdide:
   aliases:
     unicodes:
       composite:
@@ -8316,7 +8316,7 @@ divide:
     - 5.0.13
     - 6.0.0-beta1
     - 6.2.0
-  label: Divide
+  label: tdide
   search:
     terms: []
   styles:

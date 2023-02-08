@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Ass10</title>
+    <style>
+        body{
+            background-image: linear-gradient(90deg,green,lightyellow);
+            margin: 180px 0 0 500px; 
+        }
+        fieldset{
+            width:fit-content;
+            background-color: ghostwhite;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+        h1{
+            color:darkred;
+        }
+        input{
+            border-radius: 5px;
+            margin:5px;
+            font-size: 15px;
+        }
+        #sub{
+            color:blue;
+        }
+        #r{
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+                <h1>HTML Form</h1>
+                <table>
+                    <tr>
+                        <td><label for="#fn">First Name :</label>
+                        <td><input type="text" placeholder="Enter your first name" id="fn"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="#sn">Second Name :</label></td>
+                        <td> <input type="text" placeholder="Enter your second name" id="sn"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="#dob">Date of Birth :</label></td>
+                        <td><input type="date" id="dob"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="#e">Email :</label></td>
+                        <td><input type="email" placeholder="xyz@gmail.com" id="e"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="#mob">Mobile Number :</label></td>
+                        <td><input type="number" id="mob"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Submit" id="sub">
+                        <input type="reset" value="Reset" id="r"></td>
+                    </tr>
+                </table>
+            </fieldset>
+    </form>
+</body>
+</html>

@@ -1430,7 +1430,7 @@
     Object.defineProperty(val, 'node', {
       get: function get() {
         if (!IS_DOM) return;
-        var container = DOCUMENT.createElement('div');
+        var container = DOCUMENT.createElement('td');
         container.innerHTML = val.html;
         return container.children;
       }

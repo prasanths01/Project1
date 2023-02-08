@@ -9978,7 +9978,7 @@ display:
   label: Display
   unicode: e163
   voted: false
-divide:
+tdide:
   aliases:
     unicodes:
       composite:
@@ -9997,7 +9997,7 @@ divide:
     pro:
       - family: classic
         style: solid
-  label: Divide
+  label: tdide
   unicode: f529
   voted: false
 dna:
