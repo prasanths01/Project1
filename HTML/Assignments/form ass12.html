@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>Form ass12</title>
     <style>
         body{
-            background-image: url("1.jpg");
-            background-repeat: no-repeat;
-            
         }
-            </style>
+        form{
+            margin-top: 100px;
+            margin-left: 200px;
+        }
+        #msg{
+            padding: 30px;
+        }
+</style>
 </head>
 <body>
     <form>
@@ -24,14 +28,14 @@
                 <td><input type="text"></td>
             </tr>
             <tr>
-                <td><label for="">Phone:</label></td>
-                <td><input type="text">
-                <input type="text">
+                <td><label for="ph">Phone:</label></td>
+                <td><input type="text" id="ph">
+                <input type="text" >
                 <input type="text"></td>
             </tr>
             <tr>
-                <td><label for="">Message Subject: </label></td>
-                <td><input type="text"></td>
+                <td><label for="#msg">Message Subject: </label></td>
+                <td><input type="text" id="msg"></td>
             </tr>
             <tr>
                 <td><label for="">Message :</label></td>
@@ -42,10 +46,10 @@
                 <td><input type="url" name="" id=""></td>
             </tr>
         </table>
+        <hr>
+        <button>
+            <a href="">Submit Form</a>
+        </button> 
     </form>
-    <hr>
-    <button>
-        <a href="">Submit Form</a>
-    </button> 
 </body>
 </html>
