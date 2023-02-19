@@ -2,41 +2,46 @@
 <html lang="en">
 <head>
     <title>LEGALIA</title>
-    <link rel="stylesheet" href="Project1\HTML\CSS\fontawesome-free-6.2.1-web\css\all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-        body{
+        body
+        {
             margin: 0%;
             padding: 0%;
-            background-image: url(bg.jpg);
+            background-image: url(bg11.jpg);
             background-repeat: no-repeat;
             background-size: cover;
         }
-        .navbar{
+        .navbar
+        {
             padding: 13px;
             background-color: rgb(20, 20, 20);
             display: flex;
             flex-direction:row;
             justify-content: end;
-
         }
-        a{
+        a
+        {
             padding: 10px;
             text-decoration: none;
             font-family:Arial, Helvetica, sans-serif ;
             font-size: 12pt;
             color: ghostwhite;
         }
-        a:hover{
+        a:hover
+        {
             background-color: red;
         }
-        h1{
+        h1
+        {
             margin-top: 10px;
             color: ghostwhite;
             display: flex;
             justify-content: center;
             align-items: center;
         }
-        .content{
+        .content
+        {
             color: ghostwhite;
             display: flex;
             justify-content: center;
@@ -44,46 +49,55 @@
             font-style: italic;
             text-align:center;
         }
-        span{
+        span
+        {
+            margin-left: 20px;
             color: red;
         }
-        td{
+        td
+        {
             display: flex;
             align-items: center;
             justify-content: space-evenly ;
         }
-        table{
+        table
+        {
             margin: 30px;
             padding:30px;
             display: flex;
             justify-content: center;
             align-items: center;
         }
-        #b1{
+        #b1
+        {
             margin: 15px;
             width:350px;
             height: 25px;
             padding: 15px;
         }
-        #b2{
+        #b2
+        {
             margin: 15px;
             width:350px;
             height: 25px;
             padding: 15px;
         }
-        #b3{
+        #b3
+        {
             margin: 15px;
             width:350px;
             height: 25px;
             padding: 15px;
         }
-        #b4{
+        #b4
+        {
              margin: 15px;
             width: 450px;
             height: 195px;
             padding: 20px;
         }
-        button{
+        button
+        {
             padding: 10px;
             background-color: red;
             text-decoration: none;
@@ -95,6 +109,7 @@
 <body>
     <nav>
         <div class="navbar">
+            <span>LEGALIA</span>
             <a href="">HOME</a>
             <a href="">ABOUT</a>
             <a href="">SERVICE AREAS</a>
@@ -105,7 +120,9 @@
     <div>
         <h1>GET IN TOUCH</h1>
         <div class="content">
-            <h3>phone: +91 123 456 7890 <br> Email:<span>hadmdy.mostsfa@legliacorp.com </span><br> Address: 18 Mahmoud Azmy Streeet,off 26th july Street, Zamalek, Cairo, Egypt.</h3>
+            <h3> <a href=""><i class="fa-solid fa-phone"></i> Phone: +91 123 456 7890</a>  <br> 
+                <a href=""><i class="fa-solid fa-envelope"></i>Email:<span>hadmdy.mostsfa@legliacorp.com</span></a><br>
+                <a href=""><i class="fa-solid fa-location-dot"></i>Address: 18 Mahmoud Azmy Streeet,off 26th july Street, Zamalek, Cairo, Egypt.</h3>
         </div>        
     <table>
         <tr>
@@ -115,8 +132,8 @@
             <th><input type="text" id="b4"></th>
         </tr>
     </table>
-    <button>
-        <a href="">SEND MESSAGE</a>
-    </button>
+        <button>
+            <a href="">SEND MESSAGE</a>
+        </button>
 </body>
 </html>
