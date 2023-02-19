@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: repeat(2,800px);
+            grid-template-rows:repeat(2,200px);
+            grid-template-areas: 
+            "header header"
+            "navbar navbar"
+            "aside aside"
+            "footer footer";
+        }
+        div>header{
+            grid-area: header;
+            background-color:gray;
+        }
+        div nav{
+            grid-area: navbar;
+            background-color:green;
+        }
+        div>aside{
+            grid-area: aside;
+            background-color:yellow;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <header>header</header>
+        <nav>navbar</nav>
+    </div>
+</body>
+</html>
