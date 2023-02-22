@@ -1,0 +1,27 @@
+.text-primary{
+    color: chocolate !important;
+}
+.text-secondary{
+    color: chocolate !important;
+}
+.text-info{
+    color: chocolate !important;
+}
+.bg-primary,.btn-primary :hover{
+    background: linear-gradient(45deg,black,rgb(70, 70, 216)) !important;
+}
+.bg-primary,.btn-secondary{
+    background: linear-gradient(45deg,black,papayawhip) !important;
+}
+.bg-primary,.btn-success{
+    background: linear-gradient(45deg,black,lightgreen) !important;
+}
+.bg-primary,.btn-info{
+    background: linear-gradient(45deg,black,purple) !important;
+}
+.bg-primary,.btn-danger{
+    background: linear-gradient(45deg,black,lightcoral) !important;
+}
+.bg-primary,.btn-warning{
+    background: linear-gradient(45deg,black,seagreen) !important;
+}
